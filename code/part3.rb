@@ -1,3 +1,3 @@
 def combine_anagrams(words)
- # YOUR CODE HERE
+    words.group_by{|str| str.downcase.chars.sort}.values
 end
